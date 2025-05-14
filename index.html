@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITP - Internship Training Program</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Additional custom styles */
+    .hero-bg {
+      background: linear-gradient(to right, #1e3a8a, #3b82f6);
+    }
+    .palette-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .palette-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .logo {
+      height: 40px; /* Adjust the size of the logo */
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-lg p-4 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="logo.jpg" alt="AnC Logo" class="logo">
+        <h1 class="text-2xl font-bold text-blue-600">Academics and Career Council (AnC)</h1>
+      </div>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="text-gray-700 hover:text-blue-600">Home</a></li>
+        <li><a href="#resources" class="text-gray-700 hover:text-blue-600">Resources</a></li>
+        <li><a href="#resumes" class="text-gray-700 hover:text-blue-600">Resumes</a></li>
+        <li><a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Landing Page Section -->
+  <section id="home" class="hero-bg text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-5xl font-bold mb-4">Internship Training Program (ITP)</h1>
+      <p class="text-lg mb-6">A comprehensive program by Academics and Career Council, IIT Kanpur to prepare students for the internship season.</p>
+      <a href="#resources" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition">Explore Resources</a>
+    </div>
+  </section>
+
+  <!-- Resources Page Section -->
+  <section id="resources" class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Resources for Each Role</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Resource Palettes -->
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">HR</h3>
+          <p class="text-gray-600 mb-4">Guides and materials for HR roles.</p>
+          <a href="https://drive.google.com/drive/folders/19D6RX7JzMTz4Oi5eFV_yFkoHosj9RGax" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Software</h3>
+          <p class="text-gray-600 mb-4">Resources for Software Development roles.</p>
+          <a href="https://drive.google.com/drive/folders/1VTpxhQz8lfI82BkWRtfA_3sYJ1Fi9xZc" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Quant</h3>
+          <p class="text-gray-600 mb-4">Preparation materials for Quant roles.</p>
+          <a href="https://drive.google.com/drive/folders/1QRHak0q1yJKnX8gRzBc4jproDy-Re5ON" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Product</h3>
+          <p class="text-gray-600 mb-4">Resources for Product Management roles.</p>
+          <a href="https://drive.google.com/drive/folders/1BtQzjeK9ym71ea_LCRhQ5_2dVAZ5NHBM" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Finance</h3>
+          <p class="text-gray-600 mb-4">Guides for Finance roles.</p>
+          <a href="https://drive.google.com/drive/folders/1yQvQ-pW8oaDLuvo3yI6x-rizo3OVJsUE" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Core</h3>
+          <p class="text-gray-600 mb-4">Materials for Core Engineering roles.</p>
+          <a href="https://drive.google.com/drive/folders/1Bs8912wU7135iEHnE_7WJAqIQrMy7B5_" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Consulting</h3>
+          <p class="text-gray-600 mb-4">Resources for Consulting roles.</p>
+          <a href="https://drive.google.com/drive/folders/1BswewPwe3xSKh871XO5XANtAMmlX1NG-" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+        <div class="palette-card bg-blue-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Analyst</h3>
+          <p class="text-gray-600 mb-4">Guides for Analyst roles.</p>
+          <a href="https://drive.google.com/drive/folders/1x3HJXA9frOW3C5yllcnX8mOayq0Htz05" target="_blank" class="text-blue-600 hover:underline">Access Resources</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resumes Page Section -->
+  <section id="resumes" class="py-16 bg-gray-50">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Model Resumes for Each Role</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Resume Palettes -->
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Techno Managerial</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Techno-Managerial roles.</p>
+          <a href="https://drive.google.com/drive/folders/1NC_Fb-2YBaV0lw3B990nbzh8hVcEKl1a" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Software</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Software Development roles.</p>
+          <a href="https://drive.google.com/drive/folders/11-f1IM68zTjrAcdd993lLx5h8sAWppOi" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Quant</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Quant roles.</p>
+          <a href="https://drive.google.com/drive/folders/1YeErfMZC5M0I-81Rn5Azje8sZkwLd7Qu" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Product</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Product Management roles.</p>
+          <a href="https://drive.google.com/drive/folders/1bx70qktcm2LtnMxkqCxAGkcNDArAX6Wq" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Finance</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Finance roles.</p>
+          <a href="https://drive.google.com/drive/folders/1hIMhJx2vbX0fj9wtjglrIuuhIEJVeUDO" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Core</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Core Engineering roles.</p>
+          <a href="https://drive.google.com/drive/folders/17Tz4pNHa5_zkzKB9DxbERHnB72L8JWUs" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Consulting</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Consulting roles.</p>
+          <a href="https://drive.google.com/drive/folders/1asUcvD7GSEWWnfpJ5hS7LKhs2MhDtI6J" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+        <div class="palette-card bg-green-100 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-2">Analytics</h3>
+          <p class="text-gray-600 mb-4">Model resumes for Analytics roles.</p>
+          <a href="https://drive.google.com/drive/folders/15ZmK4_wpC65fUxqV3Ek2kFQjbNbcYVH8" target="_blank" class="text-blue-600 hover:underline">View Resumes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Page Section -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Contact the Team</h2>
+      <div class="text-center">
+        <p class="text-lg text-gray-600 mb-6">Reach out to the Career Development Wing Managers of AnC Council, IIT Kanpur:</p>
+        <ul class="space-y-4">
+          <li class="text-gray-800">Aayush Kumar - <a href="mailto:aayushk23@iitk.ac.in" class="text-blue-600 hover:underline">aayushk23@iitk.ac.in</a></li>
+          <li class="text-gray-800">Karmanya Goyal - <a href="mailto:karmanya23@iitk.ac.in" class="text-blue-600 hover:underline">karmanya23@iitk.ac.in</a></li>
+          <li class="text-gray-800">Aryamann Srivastava - <a href="mailto:aryamanns23@iitk.ac.in" class="text-blue-600 hover:underline">aryamanns23@iitk.ac.in</a></li>
+          <li class="text-gray-800">Aditya Sati - <a href="mailto:aityasati23@iitk.ac.in" class="text-blue-600 hover:underline">aityasati23@iitk.ac.in</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Academics and Career Council, IIT Kanpur. All rights reserved.</p>
+      <p class="mt-2">Visit us at <a href="http://www.anciitk.co.in" class="text-blue-400 hover:underline">www.anciitk.co.in</a></p>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll JavaScript -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
